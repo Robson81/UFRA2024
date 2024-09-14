@@ -11,6 +11,7 @@ public class ContaEspecial extends ContaBancaria {
 
 	public ContaEspecial(String banco, int agencia, int conta, double saldo, String titular, double limite) {
 		super(banco, agencia, conta, saldo, titular);
+		System.out.println("Criando Conta Bancária Especial");
 		this.limite = limite;
 	}
 
